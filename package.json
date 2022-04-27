@@ -20,7 +20,7 @@
     "build:stub": "unbuild --stub",
     "lint": "eslint .",
     "test": "pnpm run build && pnpm run lint",
-    "bump": "bump package.json --commit 'chore: release v'",
+    "release": "bump package.json --commit 'chore: release v' --tag 'v' --all",
     "clear": "rimraf dist node_modules"
   },
   "peerDependencies": {
