@@ -1,0 +1,19 @@
+# 'a': 'b'
+- a: good
+- good:
+    - b: 22
+    - d: 22
+    - e: aaaaa
+
+- a: b
+  c:
+    - d
+    - e: f
+      g: h asd
+
+- a:
+    b
+  c:
+    - d
+    - e: f
+      g: h
