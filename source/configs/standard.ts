@@ -123,7 +123,15 @@ export default {
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }], // 允许所有属性同行
     'operator-linebreak': ['error', 'before'], // 在操作符前换行
     // Comment
-    'spaced-comment': ['error', 'always', { exceptions: ['/', '-', '+', '*'] }], // 注释文字前，必须有空格
+    'spaced-comment': ['error', 'always', {
+      exceptions: ['-', '+', '*'],
+      markers: ['/'], // e.g. `/// <reference types="..." />`
+      block: {
+        exceptions: ['*'],
+        markers: ['!'],
+        balanced: true, // balanced space in a block comment: /* comment */
+      },
+    }], // 注释文字前，必须有空格
     'multiline-comment-style': ['error', 'separate-lines'], // 除了 JSDoc，只允许单行注释
     // 'lines-around-comment': ['error', { beforeBlockComment: true }], // 多行注释前空行
     'no-warning-comments': ['error', { terms: ['TODO', 'FIXME'] }], // 禁用指定的注释
