@@ -275,7 +275,7 @@ export default {
     // 禁止随意抛出异常，只允许 Error
     'no-throw-literal': 'error', // throw new Error('...')
     'no-multi-assign': 'error', // e.g. `var a = b = c = 1`
-    'no-negated-condition': 'error', // e.g. `if (!condition) {...}`
+    // 'no-negated-condition': 'error', // e.g. `if (!condition) {...}`
     'prefer-destructuring': 'error', // e.g. `const { a, b } = obj`
     'prefer-rest-params': 'error', // No arguments. e.g. `function foo(...args) {...}`
     'symbol-description': 'error', // Symbol must have description parameter
