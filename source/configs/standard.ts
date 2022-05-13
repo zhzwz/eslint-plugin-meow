@@ -182,7 +182,7 @@ export default {
     yoda: ['error', 'never', { exceptRange: true }], // 禁止 yoda 条件
 
     // Function
-    'func-call-spacing': ['error', 'never'], // fn()
+    // 'func-call-spacing': ['error', 'never'], // fn()
     // 'func-names': 'error', // function 表达式必须命名，有利于 debug
     // 'func-name-matching': 'error', // 强制函数名与赋值给它的变量名或属性名相匹配
     'function-paren-newline': ['error', 'consistent'], // [--fix] 函数的参数括号内智能换行
