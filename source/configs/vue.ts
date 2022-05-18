@@ -30,6 +30,9 @@ export default {
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
 
+        // Variable can be used before it was defined. (<script setup> in `*.vue`)
+        '@typescript-eslint/no-use-before-define': 'off',
+
         'vue/no-v-html': 'off',
         'vue/require-default-prop': 'off',
         'vue/max-attributes-per-line': 'off',
