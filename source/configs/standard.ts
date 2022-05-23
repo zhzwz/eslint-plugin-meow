@@ -266,7 +266,7 @@ export default {
 
     'operator-assignment': 'error', // e.g. `a = a + 1` => `a += 1`
 
-    radix: 'error', // e.g. `parseInt('010', 10)`
+    // radix: 'error', // e.g. `parseInt('010', 10)`
     eqeqeq: 'error',
     // 禁止未使用的表达式
     'no-unused-expressions': 'error',
