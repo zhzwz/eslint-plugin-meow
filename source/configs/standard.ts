@@ -118,7 +118,7 @@ export default {
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 1 }], // 最大连续空行数
     'eol-last': ['error', 'always'], // 文件末尾空行
     'padded-blocks': ['error', 'never'], // [--fix] 代码块内侧头尾无换行
-    'multiline-ternary': ['error', 'always-multiline'], // 三元操作符，按需换行
+    // 'multiline-ternary': ['error', 'always-multiline'], // 三元操作符，按需换行
     'object-curly-newline': ['error', { consistent: true }], // 对象的大括号内部，按需换行
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }], // 允许所有属性同行
     'operator-linebreak': ['error', 'before'], // 在操作符前换行
