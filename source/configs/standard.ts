@@ -89,8 +89,8 @@ export default {
     'comma-style': ['error', 'last'],
 
     // 大括号，typescript 添加了针对 enum, interface, namespace, module declarations 的支持
-    'brace-style': 'off',
-    '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
+    // 'brace-style': 'off',
+    // '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: false }],
     'block-spacing': ['error', 'always'],
     curly: ['error', 'multi-line'], // if 或 else if 或 else 或 for 或 while 或 do 默认使用大括号，单行可省略
     // Space
