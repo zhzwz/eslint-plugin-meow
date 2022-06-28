@@ -337,6 +337,7 @@ export default {
     'public',
     'node_modules',
     '*.min.*',
+    '*.code-snippets',
     'LICENSE*',
     'CHANGELOG.md',
     'yarn.lock',
