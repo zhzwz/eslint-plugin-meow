@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-meow",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "license": "MIT",
   "repository": "coderzhaoziwei/eslint-plugin-meow",
   "main": "./dist/index.cjs",

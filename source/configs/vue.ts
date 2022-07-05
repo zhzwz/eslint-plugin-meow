@@ -39,6 +39,9 @@ export default {
         'vue/multi-word-component-names': 'off',
         'vue/no-setup-props-destructure': 'off',
         'vue/singleline-html-element-content-newline': 'off',
+
+        // Allow components in one file
+        'vue/one-component-per-file': 'off',
       },
     },
   ],
