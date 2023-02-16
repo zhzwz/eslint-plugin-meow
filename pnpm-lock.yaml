@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-jsonc: ^2.3.0
   eslint-plugin-markdown: ^2.2.1
   eslint-plugin-meow: 'file:'
-  eslint-plugin-n: ^15.2.3
+  eslint-plugin-n: ^15.6.1
   eslint-plugin-promise: ^6.0.0
   eslint-plugin-react: ^7.30.0
   eslint-plugin-vue: ^8.7.1
@@ -34,7 +34,7 @@ dependencies:
   eslint-plugin-import: 2.26.0_6lykrgsjl6r2vncmjcievjkgyy
   eslint-plugin-jsonc: 2.3.0_eslint@8.18.0
   eslint-plugin-markdown: 2.2.1_eslint@8.18.0
-  eslint-plugin-n: 15.2.3_eslint@8.18.0
+  eslint-plugin-n: 15.6.1_eslint@8.18.0
   eslint-plugin-promise: 6.0.0_eslint@8.18.0
   eslint-plugin-react: 7.30.0_eslint@8.18.0
   eslint-plugin-vue: 8.7.1_eslint@8.18.0
@@ -1051,7 +1051,7 @@ packages:
   /builtins/5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.3.7
+      semver: 7.3.8
 
   /call-bind/1.0.2:
     resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
@@ -1238,8 +1238,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      is-text-path: 1.0.1
       JSONStream: 1.3.5
+      is-text-path: 1.0.1
       lodash: 4.17.21
       meow: 8.1.2
       split2: 3.2.2
@@ -2013,8 +2013,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /eslint-plugin-n/15.2.3_eslint@8.18.0:
-    resolution: {integrity: sha512-H+KC7U5R+3IWTeRnACm/4wlqLvS1Q7M6t7BGhn89qXDkZan8HTAEv3ouIONA0ifDwc2YzPFmyPzHuNLddNK4jw==}
+  /eslint-plugin-n/15.6.1_eslint@8.18.0:
+    resolution: {integrity: sha512-R9xw9OtCRxxaxaszTQmQAlPgM+RdGjaL1akWuY/Fv9fRAi8Wj4CUKc6iYVG8QNRjRuo8/BqVYIpfqberJUEacA==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2024,10 +2024,10 @@ packages:
       eslint-plugin-es: 4.1.0_eslint@8.18.0
       eslint-utils: 3.0.0_eslint@8.18.0
       ignore: 5.2.0
-      is-core-module: 2.9.0
+      is-core-module: 2.11.0
       minimatch: 3.1.2
       resolve: 1.22.1
-      semver: 7.3.7
+      semver: 7.3.8
 
   /eslint-plugin-promise/6.0.0_eslint@8.18.0:
     resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
@@ -2627,6 +2627,11 @@ packages:
   /is-callable/1.2.4:
     resolution: {integrity: sha512-nsuwtxZfMX67Oryl9LCQ+upnC0Z0BgpwntpS89m1H/TLF0zNfzfLMV/9Wa/6MZsj0acpEjAO0KF1xT6ZdLl95w==}
     engines: {node: '>= 0.4'}
+
+  /is-core-module/2.11.0:
+    resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
+    dependencies:
+      has: 1.0.3
 
   /is-core-module/2.9.0:
     resolution: {integrity: sha512-+5FPy5PnwmO3lvfMb0AsoPaBG+5KHUI0wYFXOtYPnVVVspTFUuMZNfNaNVRt3FZadstu2c8x23vykRW/NBoU6A==}
@@ -3627,6 +3632,13 @@ packages:
     dependencies:
       lru-cache: 6.0.0
 
+  /semver/7.3.8:
+    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+
   /shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -4182,7 +4194,7 @@ packages:
     resolution: {directory: '', type: directory}
     id: 'file:'
     name: eslint-plugin-meow
-    version: 1.0.9
+    version: 1.0.12
     peerDependencies:
       eslint: ^8.0.0
       typescript: ^4.0.0
@@ -4195,7 +4207,7 @@ packages:
       eslint-plugin-import: 2.26.0_6lykrgsjl6r2vncmjcievjkgyy
       eslint-plugin-jsonc: 2.3.0_eslint@8.18.0
       eslint-plugin-markdown: 2.2.1_eslint@8.18.0
-      eslint-plugin-n: 15.2.3_eslint@8.18.0
+      eslint-plugin-n: 15.6.1_eslint@8.18.0
       eslint-plugin-promise: 6.0.0_eslint@8.18.0
       eslint-plugin-react: 7.30.0_eslint@8.18.0
       eslint-plugin-vue: 8.7.1_eslint@8.18.0
